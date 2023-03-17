@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 button{
     background-color: #3882F6;
@@ -88,3 +89,33 @@ button{
     height: 100%;
 }
 /*-----------------Section two-----------------*/
+#flex-container-sec2{
+    display: flex;
+    width: 60%;
+    margin: 10px auto;
+    flex-direction: column;
+    align-items: center;
+}
+#info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.emptyspace{
+    margin-top: 50px;
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border: 4px solid blue;
+    border-radius: 20px;
+    margin-left: 16%;
+    margin-bottom: 20px;
+}
+.row-wrapper{
+    display: flex;
+    margin-top: 10px;
+}
+.row-wrapper p{
+    font-size: 18px;
+    text-align: center;
+}
