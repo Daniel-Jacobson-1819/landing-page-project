@@ -1,3 +1,4 @@
+/*-----------------Global Styles-----------------*/
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@ button{
     border: none;
     margin-top: 10px;
 }
+/*-----------------Section one-----------------*/
 .section-one{
     background-color: #1F2937;
     display: flex;
@@ -85,3 +87,4 @@ button{
     width: 50%;
     height: 100%;
 }
+/*-----------------Section two-----------------*/
