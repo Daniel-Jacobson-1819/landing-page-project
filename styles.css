@@ -146,3 +146,41 @@ button{
     font-weight: 600;
     font-style: normal;
 }
+/*-----------------Section four-----------------*/
+#flex-container-sec4{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-block{
+    width: 60%;
+    height: 200px;
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 10px;
+}
+.cta-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 200px;
+    color: white;
+}
+.cta-button{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.cta-button button{
+    border: 2px solid #fff;
+}
+.cta-button button:hover{
+    cursor: pointer;
+}
