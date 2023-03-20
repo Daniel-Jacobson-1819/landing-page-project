@@ -100,6 +100,7 @@ button{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-top: 30px;
 }
 .emptyspace{
     margin-top: 50px;
@@ -114,8 +115,34 @@ button{
 .row-wrapper{
     display: flex;
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 .row-wrapper p{
     font-size: 18px;
     text-align: center;
+}
+/*-----------------Section three-----------------*/
+#flex-container-sec3{
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.quote-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+}
+.quote-body span{
+    margin-top: 12px;
+    font-size: 20px;
+    margin-left: 200px;
+    font-weight: 600;
+    font-style: normal;
 }
